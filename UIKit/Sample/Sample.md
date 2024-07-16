@@ -2,7 +2,7 @@
 
 ## Section 1
 
-'''swift
+```swift
 extension PasswordStatusView {
 
     func updateDisplay(_ text: String) {
@@ -13,11 +13,12 @@ extension PasswordStatusView {
             : passwordLengthCriteria.reset()
     }
 }
-'''
+```
 
 ## Section 2
 
 '''swift
+
 extension PasswordStatusView {
 
     func updateDisplay(_ text: String) {
